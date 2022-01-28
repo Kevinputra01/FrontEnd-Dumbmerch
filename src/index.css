@@ -1,0 +1,383 @@
+body {
+  background-color: #0b0b0b !important;
+  color: #ffffff !important;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* END SCROLLBAR */
+
+.bg-black {
+  background-color: #0b0b0b;
+  color: #ffffff;
+}
+
+.text-auth-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 76px;
+}
+
+.text-auth-parag {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #6a6a6a;
+}
+
+.btn-login {
+  background: #f74d4d !important;
+  border-radius: 5px !important;
+
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+
+  color: #ffffff !important;
+}
+
+.btn-login:hover {
+  background: #d11111 !important;
+}
+
+.btn-login:active {
+  background: #861313 !important;
+}
+
+.btn-register {
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+
+  color: #b7b7b7 !important;
+}
+
+.btn-register:hover {
+  color: #e6e6e6 !important;
+}
+
+.btn-register:active {
+  color: #b7b7b7 !important;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.card-auth {
+  background: #181818;
+  border-radius: 10px;
+  max-width: 416px;
+}
+
+.form input {
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.text-navbar {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: #ffffff !important;
+}
+
+.text-navbar-active {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: #f74d4d !important;
+}
+
+.text-header-product {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #f74d4d;
+}
+
+.card-product {
+  background: #212121;
+  border-radius: 5px;
+}
+
+.card-product:hover {
+  box-shadow: 0px 0px 10px #3d3d3d;
+}
+
+.text-header-product-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f74d4d;
+}
+
+.text-product-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.img-rounded {
+  border-radius: 5px 5px 0 0;
+}
+
+/* Masonry */
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -10px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 10px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  /* background: grey; */
+  margin-bottom: 30px;
+}
+
+.text-header-product-detail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 66px;
+  color: #f74d4d;
+}
+
+.text-content-product-detail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.text-price-product-detail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #f74d4d;
+}
+
+.btn-buy {
+  background: #f74d4d !important;
+  border-radius: 5px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  color: #ffffff !important;
+}
+
+.btn-buy:hover {
+  background: #ce3030 !important;
+}
+
+.btn-buy:active {
+  background: #701919 !important;
+}
+
+.img-contact {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: cover !important;
+}
+
+.img-chat {
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: cover !important;
+}
+
+.text-contact {
+  font-size: 14px;
+}
+
+.text-contact-chat {
+  color: #ababab;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact img {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact:hover {
+  background-color: #212121;
+  transition: 0.5s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact:active {
+  background-color: #3d3d3d;
+  transition: 0.3s;
+}
+
+.contact-active {
+  background-color: #212121;
+  border-radius: 5px;
+}
+
+.input-message {
+  width: 100%;
+  height: 90%;
+  background: rgba(171, 171, 171, 0.15);
+  border: none;
+  color: #ffffff;
+}
+
+.chat-me {
+  position: relative;
+  background: #262626;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-me::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #262626;
+  border-bottom: 15px solid transparent;
+}
+.chat-other {
+  position: relative;
+  background: #575757;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-other::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -15px;
+  border-top: 15px solid transparent;
+  border-right: 20px solid #575757;
+  border-bottom: 15px solid transparent;
+}
+.profile-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f74d4d;
+  margin-bottom: 6px;
+}
+
+.profile-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.text-header-category {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.input-edit-category {
+  width: 100%;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+
+.label-file-add-product {
+  background: #f74d4d;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.card-form-input {
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.status-transaction-success {
+  background-color: #268d37b0;
+}
+
+.status-transaction-pending {
+  background-color: #8b8d265b;
+}
+
+.status-transaction-failed {
+  background-color: #8d26265b;
+}
